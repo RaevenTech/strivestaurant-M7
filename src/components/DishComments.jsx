@@ -1,6 +1,8 @@
 import ListGroup from 'react-bootstrap/ListGroup'
+import { PropsForDishComments } from '../types/PropsForDishComments'
 
-const DishComments = (props) => (
+
+const DishComments = (props: PropsForDishComments) => (
   <ListGroup>
     {props.selectedDish ? (
       props.selectedDish.comments.map((c) => (
