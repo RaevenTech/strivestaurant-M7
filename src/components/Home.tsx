@@ -6,7 +6,6 @@ import DishComments from './DishComments'
 
 
 
-
 const Home = () => {
   const [selectedDish, setSelectedDish] = useState<PastaType|undefined>(undefined)
 

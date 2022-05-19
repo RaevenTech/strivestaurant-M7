@@ -12,7 +12,7 @@ const Details = () => {
 
   useEffect(() => {
     let pastaId = params.pastaId
-    let pastaToShow:PastaType|undefined = dishes.find((pasta) => pasta.id.toString() === pastaId)
+    let pastaToShow = dishes.find((pasta) => pasta.id.toString() === pastaId)
     setPasta(pastaToShow)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
